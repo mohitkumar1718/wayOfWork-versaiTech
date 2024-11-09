@@ -4,6 +4,7 @@ export const ImageIcon = (props) => {
 
     const imagePos = `flex items-center justify-${props.position}`;
     return (
+        // Images at side bar
         <div className={imagePos}>
             <img
                 src={props.src}

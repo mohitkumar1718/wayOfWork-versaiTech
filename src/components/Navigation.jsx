@@ -4,6 +4,7 @@ import {SideImages} from './SideImages';
 import {MainContent} from './MainContent';
 
 export const Navigation = () => {
+    // Right side icons
     const rightIcons = [{
         id: 1,
         src: "../images/book.jpg",
@@ -16,7 +17,8 @@ export const Navigation = () => {
         id: 3,
         src: "../images/smile.png",
         position: "end"
-    }]
+    }];
+    // Left side Icons
     const leftIcons = [{
         id: 1,
         src: "../images/smile.png",
